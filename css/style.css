@@ -82,14 +82,14 @@ p{
      }
 }
 @media (max-width: 767px){
-    .Chicken and .small{
+    .small{
         width: 100%;
      }
-     .Beef and .small{
+    .small{
         
         width: 100%;
      }
-     .Sushi and .small{
+    .small{
         
         width: 100%;
      }
