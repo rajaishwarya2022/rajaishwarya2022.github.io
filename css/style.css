@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading{
+    font-family: 'Baloo 2', cursive;
+    margin: 23px;
+    text-align: center;
+}
+
+.container{
+  padding: 20px;
+  
+}
+.Chicken{
+    background-color: rgb(224, 68, 195);
+    font-family: 'Baloo 2', cursive;
+    width: 110px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    float: right;
+    
+}
+.Beef{
+    background-color: rgb(225, 86, 55);
+    font-family: 'Baloo 2', cursive;
+    width: 110px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    float: right;
+   color: white;
+}
+.Sushi{
+    background-color: rgb(200, 200, 45);
+    font-family: 'Baloo 2', cursive;
+    width: 110px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    float: right;
+    
+}
+
+.section1{
+    background-color: gray;
+    width: 30%;
+    margin: 10px;
+    border: 3px solid black;
+    height: 160px;
+    float: left;
+}
+p{
+    margin-top: 47px;
+    padding: 12px;
+   
+}
+
+@media (min-width: 992px){
+ .large{
+    width: 31%;
+ }
+ .large{
+    
+    width: 31%;
+ }
+ .large{
+    
+    width: 31%;
+ }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .medium{
+        width: 48%;
+     }
+    .medium{
+        
+        width: 48%;
+     }
+    .medium{
+        
+        width: 100%;
+     }
+}
+@media (max-width: 767px){
+    .Chicken and .small{
+        width: 100%;
+     }
+     .Beef and .small{
+        
+        width: 100%;
+     }
+     .Sushi and .small{
+        
+        width: 100%;
+     }
+    
+}
